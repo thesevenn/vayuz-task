@@ -6,7 +6,7 @@ const Sidebar: FC<PropType> = () => {
 		<aside className="max-w-[320px] min-w-[240px] lg:px-8 py-6 sticky top-0 h-screen border-r-[1px] border-white/20 border-solid hidden lg:flex flex-col justify-between">
 			<div className="space-y-8">
 				<div className="flex flex-col items-start justify-center gap-6">
-					<img src="./public/vayuz_logo.png" alt="Vayuz" />
+					<img src="./vayuz_logo.png" alt="Vayuz" />
 					<button
 						className="p-[2px] rounded-full hover:bg-position-[300px] transition-all uppercase text-white font-bold"
 						style={{
@@ -37,7 +37,7 @@ const Sidebar: FC<PropType> = () => {
 			<div className="space-y-2">
 				<img
 					className="w-full max-w-54"
-					src="./public/sidebar_thumbnail.png"
+					src="./sidebar_thumbnail.png"
 					alt="A Mac desktop setup in white "
 				/>
 				<p className="font-medium font-quicksand text-white text-sm">
