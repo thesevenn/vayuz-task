@@ -1,5 +1,24 @@
-function App() {
-	return <h1 className="font-playfair text-blue-400">This is text in react</h1>;
-}
+import Sidebar from "./components/sidebar";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Hero from "./components/hero";
+import Description from "./components/description";
 
+function App() {
+	return (
+		<>
+			<div className="flex">
+				<Sidebar />
+				<div className="w-full">
+					<Header />
+					<div className="min-h-screen p-4 space-y-23">
+						<Hero />
+						<Description />
+					</div>
+					<Footer />
+				</div>
+			</div>
+		</>
+	);
+}
 export default App;
