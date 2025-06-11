@@ -21,9 +21,11 @@ const Description: FC<PropType> = () => {
 				Whether tech enthusiast or curious mind, join us on this captivating
 				journey! <a className="text-teal">Click to begin!</a>
 			</p>
-			<button className="py-2 px-8 bg-teal text-white uppercase rounded-full font-bold cursor-pointer hover:bg-teal/70 transition-colors flex items-center gap-1">
-				begin <MoveUpRight size={20} />
-			</button>
+			<div>
+				<button className="py-2 px-8 bg-teal text-white uppercase rounded-full font-bold cursor-pointer hover:bg-teal/70 transition-colors flex items-center gap-1">
+					begin <MoveUpRight size={20} />
+				</button>
+			</div>
 		</div>
 	);
 };

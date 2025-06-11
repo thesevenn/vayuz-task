@@ -13,10 +13,10 @@ const Offerings: FC<PropType> = () => {
 		<div className="space-y-16">
 			<div className="space-y-5">
 				<div className="space-y-1">
-					<h2 className="font-playfair font-normal text-[40px] capitalize text-white text-center">
+					<h2 className="font-playfair font-normal text-2xl lg:text-[40px] capitalize text-white text-center">
 						our dynamic service suite!
 					</h2>
-					<h3 className="font-quicksand font-medium text-[22px] capitalize text-center">
+					<h3 className="font-quicksand font-medium text-lg lg:text-[22px] capitalize text-center">
 						embrace Innovation: Let's Create Together!
 					</h3>
 				</div>
@@ -102,7 +102,7 @@ const Offerings: FC<PropType> = () => {
 					/>
 				</Accordion>
 				<img
-					className="flex-1/3 max-h-[600px]"
+					className="flex-1/3 max-h-[600px] hidden lg:block"
 					src="./portrait_showcase.png"
 					alt="A portrait showing a laptop and a smartphone"
 				/>
@@ -119,7 +119,7 @@ interface Props {
 const AccordionWithIcon: FC<Props> = ({title, content, value}) => {
 	return (
 		<AccordionItem value={value}>
-			<AccordionTrigger className="font-playfair font-medium text-[26px] text-white/80 capitalize cursor-pointer">
+			<AccordionTrigger className="font-playfair font-medium text-xl lg:text-[26px] text-white/80 capitalize cursor-pointer">
 				{title}
 			</AccordionTrigger>
 			<AccordionContent>{content}</AccordionContent>
