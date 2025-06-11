@@ -20,17 +20,17 @@ const Hero: FC<PropType> = () => {
 			<div className="relative w-full isolate">
 				<img
 					className="w-full lg:w-[90%] max-w-[1000px] max-h-[600px] object-cover rounded-lg"
-					src="./public/hero_bg.png"
+					src="./hero_bg.png"
 					alt=""
 				/>
 				<img
 					className="absolute z-10 bottom-50 right-10 hidden lg:block"
-					src="./public/hero_codesnip.png"
+					src="./hero_codesnip.png"
 					alt="a code fragment on a dark background"
 				/>
 				<img
 					className="absolute z-10 -bottom-20 right-35 hidden lg:block"
-					src="./public/hero_codesnip_large.png"
+					src="./hero_codesnip_large.png"
 					alt="a larger code fragment on a dark background"
 				/>
 				<div className="w-[100px] aspect-square rounded-full bg-[#09D809]/60 absolute blur-[100px] right-0 top-20 -z-10"></div>
