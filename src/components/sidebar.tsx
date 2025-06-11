@@ -3,12 +3,12 @@ import {type FC} from "react";
 interface PropType {}
 const Sidebar: FC<PropType> = () => {
 	return (
-		<aside className="max-w-[320px] min-w-[240px] lg:px-8 py-6 sticky top-0 h-screen border-r-[1px] border-white/20 border-solid flex flex-col justify-between">
+		<aside className="max-w-[320px] min-w-[240px] lg:px-8 py-6 sticky top-0 h-screen border-r-[1px] border-white/20 border-solid hidden lg:flex flex-col justify-between">
 			<div className="space-y-8">
 				<div className="flex flex-col items-start justify-center gap-6">
 					<img src="./public/vayuz_logo.png" alt="Vayuz" />
 					<button
-						className="p-[2px] rounded-full hover:bg-position-[300px] transition-all"
+						className="p-[2px] rounded-full hover:bg-position-[300px] transition-all uppercase text-white font-bold"
 						style={{
 							backgroundImage:
 								"conic-gradient(#FC0600,#09D809,#FF6600,#F60163,#07A7CD,#FC0600)",
